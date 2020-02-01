@@ -1,0 +1,12 @@
+@media(max-width: 700px){
+	.container .row .image{
+		width: 100%;
+	}
+	.container .row label{
+		font-size: 10px;
+	}
+	.container .row input{
+		width: 100px;
+		padding: 0px 40px;
+	}
+}

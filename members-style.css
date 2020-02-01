@@ -1,0 +1,75 @@
+
+html{
+	
+}
+body {
+	background: url(pink-corded.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+	display: grid;
+}
+.pic{
+	background-image: linear-gradient(to right, #40E0D0, #7FFFD4);
+	text-align: center;
+	height: 50%;
+	width: 100%;
+	margin-top: 10%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+}
+.pic:hover{
+	background-image: linear-gradient(to right, #7FFFD4, #40E0D0);
+}
+.pic h1{
+	font-family: 'Sulphur Point', sans-serif;
+	color: #000;
+	font-size: 30px;
+	text-shadow: 2px 2px 1px #FFF;
+}
+.pic p{
+	font-family: 'Sulphur Point', sans-serif;
+	color: #000;
+	font-size: 24px;
+	text-shadow: 2px 2px 1px #FFF;
+}
+a.icon{
+	font-size: 75px;
+	vertical-align: middle;
+}
+.log{
+	text-align: center;
+	margin-top: -20px;
+}
+
+/*media queries*/
+@media(max-width: 1000px){
+	.pic h1{
+		font-size: 24px;
+	}
+	.pic p{
+		font-size: 16px;
+	}
+	.log{
+		font-size: 20px;
+	}
+}
+@media(max-width: 700px){
+	.pic h1{
+		font-size: 20px;
+	}
+	.pic p{
+		font-size: 14px;
+	}
+	.log{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	.pic{
+		height: 75%;
+	}
+}
